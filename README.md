@@ -51,6 +51,7 @@ The SVM model achieved the best overall performance, with an accuracy of approxi
 .
 ├── cyberbullying_nlp.ipynb
 ├── Detecting_Cyberbullying_with_NLP_Report.pdf
+├── Detecting_Cyberbullying_with_NLP_Presentation.pdf
 ├── cyberbullying_tweets.csv
 ├── README.md
 └── requirements.txt
