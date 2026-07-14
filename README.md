@@ -51,10 +51,9 @@ The SVM model achieved the best overall performance, with an accuracy of approxi
 .
 ├── cyberbullying_nlp.ipynb
 ├── Detecting_Cyberbullying_with_NLP_Report.pdf
-├── requirements.txt
+├── cyberbullying_tweets.csv
 ├── README.md
-└── data/
-    └── cyberbullying_tweets.csv
+└── requirements.txt
 ```
 
 ## How to Run
@@ -62,8 +61,8 @@ The SVM model achieved the best overall performance, with an accuracy of approxi
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/cyberbullying-nlp-detection.git
-cd cyberbullying-nlp-detection
+git clone https://github.com/alankarms/Detecting-Cyberbullying-with-NLP.git
+cd Detecting-Cyberbullying-with-NLP
 ```
 
 Install the required packages:
