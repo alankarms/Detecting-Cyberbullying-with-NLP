@@ -59,6 +59,13 @@ The SVM model achieved the best overall performance, with an accuracy of approxi
 
 ## How to Run
 
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/cyberbullying-nlp-detection.git
+cd cyberbullying-nlp-detection
+```
+
 Install the required packages:
 
 ```bash
@@ -69,6 +76,18 @@ Download the spaCy English model:
 
 ```bash
 python -m spacy download en_core_web_sm
+```
+
+Make sure the dataset is stored in the following location:
+
+```text
+data/cyberbullying_tweets.csv
+```
+
+The notebook reads the dataset using:
+
+```python
+df = pd.read_csv("data/cyberbullying_tweets.csv")
 ```
 
 Open the notebook:
